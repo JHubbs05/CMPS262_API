@@ -1,12 +1,13 @@
 const express = require("express");
+const cors = require("cors");
+
+
 const inventoryRoutes = require("./src/inventory/routes");
 
 const app = express();
-const port = 8004;
+const port = 9006;
 
 app.use(express.json());
-
-const cors = require("cors");
 app.use(cors({
     origin: '*'
 }));
