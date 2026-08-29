@@ -7,7 +7,7 @@ An interconnected series of code holding a table of class codes and Ids, made as
 Interactions happen between Postgres, Visual Studios, and Postman primarly.
 
 ## What are the interactions
-The table and its data are made in Postgres, the controllers and operations to act on the table (search, add, update) are made in VS with javascript and a front end made with html while the deployment of it runs from Postman. The front end is connected to another repository labled "WEB" which holds javascript, html, and css.
+The table and its data are made in Postgres, the controllers and operations to act on the table (search, add, update) are made in VS with javascript and a front end made with html while the deployment of it runs from Postman. The front end is connected to another repository labled "WEB" which holds javascript, html, and css. A system on Render holds and runs the server.
 
 ## What status is it in
 It is rudimentary and unfinished, the actual link (and that run on Postman) appear to not respond and the server itself seems broken. 
